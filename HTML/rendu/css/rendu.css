@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+  
+header {
+  background-image: url(../img/Capture\ d\'écran\ 2023-11-17\ 092845.png);
+  color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px;
+  text-align: center;
+  
+}   
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+  
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  
+}
+
+.photos {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+img {
+	width: 350px;
+	height: 250px;
+  margin-right: 20px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.reduction{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 780px) {
+  .photos{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+}
